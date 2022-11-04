@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Prac_2_top.ngc Prac_2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prac_2_top_map.ncd Prac_2_top.ngd Prac_2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Prac_2_top.ngc Prac_2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prac_2_top_map.ncd Prac_2_top.ngd Prac_2_top.pcf 
+par -w -intstyle ise -ol high -t 1 Prac_2_top_map.ncd Prac_2_top.ncd Prac_2_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prac_2_top.twx Prac_2_top.ncd -o Prac_2_top.twr Prac_2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Prac_2_top.ngc Prac_2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prac_2_top_map.ncd Prac_2_top.ngd Prac_2_top.pcf 
+par -w -intstyle ise -ol high -t 1 Prac_2_top_map.ncd Prac_2_top.ncd Prac_2_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prac_2_top.twx Prac_2_top.ncd -o Prac_2_top.twr Prac_2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Prac_2_top.ngc Prac_2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prac_2_top_map.ncd Prac_2_top.ngd Prac_2_top.pcf 
+par -w -intstyle ise -ol high -t 1 Prac_2_top_map.ncd Prac_2_top.ncd Prac_2_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prac_2_top.twx Prac_2_top.ncd -o Prac_2_top.twr Prac_2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Prac_2_top.ngc Prac_2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prac_2_top_map.ncd Prac_2_top.ngd Prac_2_top.pcf 
+par -w -intstyle ise -ol high -t 1 Prac_2_top_map.ncd Prac_2_top.ncd Prac_2_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prac_2_top.twx Prac_2_top.ncd -o Prac_2_top.twr Prac_2_top.pcf 

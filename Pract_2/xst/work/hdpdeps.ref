@@ -1,0 +1,28 @@
+V3 20
+FL C:/Users/Ivan/Documents/FPGA/Pract_2/sgm.vhd 2022/11/03.16:54:50 P.20131013
+EN work/sgm 1667489470 FL C:/Users/Ivan/Documents/FPGA/Pract_2/sgm.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sgm/Structural 1667489471 \
+      FL C:/Users/Ivan/Documents/FPGA/Pract_2/sgm.vhd EN work/sgm 1667489470
+FL C:/Users/Ivan/Documents/FPGA/Prac_2/cnt4bit.vhd 2022/10/28.12:13:41 P.20131013
+EN work/cnt4bit 1667489468 FL C:/Users/Ivan/Documents/FPGA/Prac_2/cnt4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cnt4bit/Structural 1667489469 \
+      FL C:/Users/Ivan/Documents/FPGA/Prac_2/cnt4bit.vhd EN work/cnt4bit 1667489468
+FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDiv2.vhd 2022/11/03.16:29:56 P.20131013
+EN work/frqDiv2 1667489464 FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDiv2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDiv2/Structural 1667489465 \
+      FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDiv2.vhd EN work/frqDiv2 1667489464
+FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd 2022/11/03.15:41:36 P.20131013
+EN work/frqDivN 1667489466 FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDivN/Structural 1667489467 \
+      FL C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd EN work/frqDivN 1667489466 \
+      CP frqDiv2
+FL C:/Users/Ivan/Documents/FPGA/Prac_2/Pra_2_top.vhd 2022/11/03.17:01:12 P.20131013
+EN work/Prac_2_top 1667489472 \
+      FL C:/Users/Ivan/Documents/FPGA/Prac_2/Pra_2_top.vhd PB ieee/std_logic_1164 1381692176
+AR work/Prac_2_top/Behavioral 1667489473 \
+      FL C:/Users/Ivan/Documents/FPGA/Prac_2/Pra_2_top.vhd EN work/Prac_2_top 1667489472 \
+      CP bufg CP frqDivN CP cnt4bit CP sgm

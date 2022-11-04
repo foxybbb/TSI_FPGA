@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top_isim_beh.exe -prj C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top_beh.prj work.Prac_2_top 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/frqDiv2.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/frqDivN.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/cnt4bit.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/Pract_2/sgm.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/Pra_2_top.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/Pra_2_top.vhd" Line 47: <bufg> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/Ivan/Documents/FPGA/Pract_2/../Prac_2/Pra_2_top.vhd" Line 47. Instance bufg is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture structural of entity frqDiv2 [frqdiv2_default]
+Compiling architecture structural of entity frqDivN [frqdivn_default]
+Compiling architecture structural of entity cnt4bit [cnt4bit_default]
+Compiling architecture structural of entity sgm [sgm_default]
+Compiling architecture behavioral of entity prac_2_top
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top_isim_beh.exe
+Fuse Memory Usage: 30840 KB
+Fuse CPU Usage: 561 ms

@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 frqDivN.ngc frqDivN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o frqDivN_map.ncd frqDivN.ngd frqDivN.pcf 
+par -w -intstyle ise -ol high -t 1 frqDivN_map.ncd frqDivN.ncd frqDivN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frqDivN.twx frqDivN.ncd -o frqDivN.twr frqDivN.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 frqDivN.ngc frqDivN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o frqDivN_map.ncd frqDivN.ngd frqDivN.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 frqDivN.ngc frqDivN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o frqDivN_map.ncd frqDivN.ngd frqDivN.pcf 
+par -w -intstyle ise -ol high -t 1 frqDivN_map.ncd frqDivN.ncd frqDivN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frqDivN.twx frqDivN.ncd -o frqDivN.twr frqDivN.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_2/frqDivN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 frqDivN.ngc frqDivN.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o frqDivN_map.ncd frqDivN.ngd frqDivN.pcf 
+par -w -intstyle ise -ol high -t 1 frqDivN_map.ncd frqDivN.ncd frqDivN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml frqDivN.twx frqDivN.ncd -o frqDivN.twr frqDivN.pcf 
