@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top_isim_beh.exe" -prj "C:/Users/Ivan/Documents/FPGA/Pract_2/Prac_2_top_beh.prj" "work.Prac_2_top" 

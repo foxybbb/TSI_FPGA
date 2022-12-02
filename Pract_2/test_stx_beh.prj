@@ -1,6 +1,0 @@
-vhdl isim_temp "../Prac_2/frqDiv2.vhd"
-vhdl isim_temp "../Prac_2/frqDivN.vhd"
-vhdl isim_temp "../Prac_2/cnt4bit.vhd"
-vhdl isim_temp "sgm.vhd"
-vhdl isim_temp "../Prac_2/Pra_2_top.vhd"
-vhdl isim_temp "test.vhd"

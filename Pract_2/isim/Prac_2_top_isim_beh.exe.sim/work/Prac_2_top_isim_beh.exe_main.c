@@ -15,6 +15,7 @@
 struct XSI_INFO xsi_info;
 
 char *STD_STANDARD;
+char *UNISIM_P_0947159679;
 char *IEEE_P_2592010699;
 
 
@@ -25,6 +26,8 @@ int main(int argc, char **argv)
 
     xsi_register_min_prec_unit(-12);
     ieee_p_2592010699_init();
+    unisim_p_0947159679_init();
+    unisim_a_1490675510_1976025627_init();
     work_a_1363565807_1181938964_init();
     work_a_3307269773_1181938964_init();
     work_a_1474199958_1181938964_init();
@@ -35,6 +38,7 @@ int main(int argc, char **argv)
     xsi_register_tops("work_a_3454959799_3212880686");
 
     STD_STANDARD = xsi_get_engine_memory("std_standard");
+    UNISIM_P_0947159679 = xsi_get_engine_memory("unisim_p_0947159679");
     IEEE_P_2592010699 = xsi_get_engine_memory("ieee_p_2592010699");
     xsi_register_ieee_std_logic_1164(IEEE_P_2592010699);
 

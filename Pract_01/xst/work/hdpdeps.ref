@@ -1,0 +1,13 @@
+V3 7
+FL C:/Users/Ivan/Documents/FPGA/Pract_01/Adder_top.vhd 2022/11/30.00:13:02 P.20131013
+EN work/Adder_top 1669760097 \
+      FL C:/Users/Ivan/Documents/FPGA/Pract_01/Adder_top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder_top/Behavioral 1669760098 \
+      FL C:/Users/Ivan/Documents/FPGA/Pract_01/Adder_top.vhd EN work/Adder_top 1669760097 \
+      CP bitAdder
+FL C:/Users/Ivan/Documents/FPGA/Pract_01/bitAdder.vhd 2022/11/30.00:13:11 P.20131013
+EN work/bitAdder 1669760095 FL C:/Users/Ivan/Documents/FPGA/Pract_01/bitAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bitAdder/Structural 1669760096 \
+      FL C:/Users/Ivan/Documents/FPGA/Pract_01/bitAdder.vhd EN work/bitAdder 1669760095

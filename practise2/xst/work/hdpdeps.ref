@@ -1,0 +1,12 @@
+V3 7
+FL C:/Users/Ivan/Documents/FPGA/practise2/frqDiv2.vhd 2022/11/28.23:34:30 P.20131013
+EN work/frqDiv2 1669671306 FL C:/Users/Ivan/Documents/FPGA/practise2/frqDiv2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDiv2/Structural 1669671307 \
+      FL C:/Users/Ivan/Documents/FPGA/practise2/frqDiv2.vhd EN work/frqDiv2 1669671306
+FL C:/Users/Ivan/Documents/FPGA/practise2/frqDivN.vhd 2022/11/28.23:34:58 P.20131013
+EN work/frqDivN 1669671308 FL C:/Users/Ivan/Documents/FPGA/practise2/frqDivN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDivN/Structural 1669671309 \
+      FL C:/Users/Ivan/Documents/FPGA/practise2/frqDivN.vhd EN work/frqDivN 1669671308 \
+      CP frqDiv2

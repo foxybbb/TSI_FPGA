@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/HW1/eLCeLL.xst" -ofn "C:/Users/Ivan/Documents/FPGA/HW1/eLCeLL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 eLCeLL.ngc eLCeLL.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o eLCeLL_map.ncd eLCeLL.ngd eLCeLL.pcf 
+par -w -intstyle ise -ol high -t 1 eLCeLL_map.ncd eLCeLL.ncd eLCeLL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml eLCeLL.twx eLCeLL.ncd -o eLCeLL.twr eLCeLL.pcf 

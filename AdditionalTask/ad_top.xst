@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Documents/FPGA/AdditionalTask/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Documents/FPGA/AdditionalTask/xst"
+elaborate
+-ifn ad_top.prj
+-ifmt mixed

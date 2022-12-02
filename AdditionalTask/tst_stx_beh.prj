@@ -1,0 +1,2 @@
+vhdl isim_temp "ad_top.vhd"
+vhdl isim_temp "tst.vhd"

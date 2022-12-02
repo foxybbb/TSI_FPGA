@@ -64,6 +64,17 @@ LAB2:    xsi_set_current_line(50, ng0);
     t10 = *((char **)t9);
     *((unsigned char *)t10) = t6;
     xsi_driver_first_trans_fast(t3);
+    xsi_set_current_line(51, ng0);
+    t1 = (t0 + 1352U);
+    t3 = *((char **)t1);
+    t2 = *((unsigned char *)t3);
+    t1 = (t0 + 3136);
+    t4 = (t1 + 56U);
+    t7 = *((char **)t4);
+    t8 = (t7 + 56U);
+    t9 = *((char **)t8);
+    *((unsigned char *)t9) = t2;
+    xsi_driver_first_trans_fast_port(t1);
     goto LAB3;
 
 }

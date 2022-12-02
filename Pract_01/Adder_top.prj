@@ -1,0 +1,2 @@
+vhdl work "bitAdder.vhd"
+vhdl work "Adder_top.vhd"
