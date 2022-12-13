@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+frqDivN instance_name (
+    .ck(ck), 
+    .ckDiv(ckDiv), 
+    .ckEn(ckEn)
+    );
+
+

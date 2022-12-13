@@ -1,0 +1,12 @@
+AR lfsr_top behavioral C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.vhd sub00/vhpl07 1670962732
+EN sgm NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/SGM.vhd sub00/vhpl04 1670962729
+EN frqdiv2 NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDiv2.vhd sub00/vhpl08 1670962723
+EN frqdivn NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDivN.vhd sub00/vhpl10 1670962725
+AR sgm structural C:/Users/Ivan/Documents/FPGA/LFSR_3/SGM.vhd sub00/vhpl05 1670962730
+AR elcell structural C:/Users/Ivan/Documents/FPGA/LFSR_3/eLCeLL.vhd sub00/vhpl01 1670962722
+EN lfsr_top NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.vhd sub00/vhpl06 1670962731
+EN elcell NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/eLCeLL.vhd sub00/vhpl00 1670962721
+AR lfsr structural C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR.vhd sub00/vhpl03 1670962728
+EN lfsr NULL C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR.vhd sub00/vhpl02 1670962727
+AR frqdivn structural C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDivN.vhd sub00/vhpl11 1670962726
+AR frqdiv2 structural C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDiv2.vhd sub00/vhpl09 1670962724
