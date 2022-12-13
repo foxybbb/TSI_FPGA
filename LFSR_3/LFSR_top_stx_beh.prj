@@ -1,3 +1,0 @@
-vhdl isim_temp "frqDiv2.vhd"
-vhdl isim_temp "frqDivN.vhd"
-vhdl isim_temp "LFSR_top.vhd"

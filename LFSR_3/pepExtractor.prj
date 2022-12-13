@@ -1,6 +1,0 @@
-work	"LFSR.vhd"
-work	"LFSR_top.vhd"
-work	"SGM.vhd"
-work	"eLCeLL.vhd"
-work	"frqDiv2.vhd"
-work	"frqDivN.vhd"

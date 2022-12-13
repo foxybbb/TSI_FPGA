@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Ivan/Documents/FPGA/LFSR_3/tbb_isim_beh.exe" -prj "C:/Users/Ivan/Documents/FPGA/LFSR_3/tbb_beh.prj" "work.tbb" 
