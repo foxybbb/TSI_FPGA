@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Ivan/Documents/FPGA/AdditionalTask/tst_isim_beh.exe" -prj "C:/Users/Ivan/Documents/FPGA/AdditionalTask/tst_beh.prj" "work.tst" 
