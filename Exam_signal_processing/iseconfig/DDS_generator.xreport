@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-01-04T13:53:33</DateModified>
+  <DateModified>2023-01-04T13:58:14</DateModified>
   <ModuleName>DDS_generator</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Ivan/Documents/git/TSI_FPGA/Exam_signal_processing/iseconfig/DDS_generator.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Ivan/Documents/git/TSI_FPGA/Exam_signal_processing</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Ivan/Documents/git/TSI_FPGA/Exam_signal_processing\</ImplementationReportsDirectory>
   <DateInitialized>2023-01-04T13:53:33</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

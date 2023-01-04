@@ -1,0 +1,34 @@
+V3 20
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/DDS_generator.vhd 2023/01/04.14:13:23 P.20131013
+EN work/DDS_generator 1672835415 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/DDS_generator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DDS_generator/Structural 1672835416 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/DDS_generator.vhd \
+      EN work/DDS_generator 1672835415
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigDiv.vhd 2023/01/04.14:04:52 P.20131013
+EN work/sigDiv 1672835421 FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigDiv.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sigDiv/Structural 1672835422 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigDiv.vhd EN work/sigDiv 1672835421
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/signalMod.vhd 2023/01/04.14:04:34 P.20131013
+EN work/signalMod 1672835417 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/signalMod.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/signalMod/Structural 1672835418 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/signalMod.vhd \
+      EN work/signalMod 1672835417
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/SignalProcesing.vhd 2023/01/04.14:30:12 P.20131013
+EN work/SignalProcesing 1672835423 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/SignalProcesing.vhd \
+      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SignalProcesing/Behavioral 1672835424 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/SignalProcesing.vhd \
+      EN work/SignalProcesing 1672835423 CP DDS_generator CP signalMod CP sigKlip \
+      CP sigDiv
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigPr02.vhd 2023/01/04.11:40:43 P.20131013
+EN work/sigKlip 1672835419 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigPr02.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sigKlip/Structural 1672835420 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigPr02.vhd EN work/sigKlip 1672835419

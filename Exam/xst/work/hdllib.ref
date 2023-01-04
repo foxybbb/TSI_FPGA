@@ -1,0 +1,10 @@
+EN sigdiv NULL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigDiv.vhd sub00/vhpl06 1672835421
+AR sigklip structural C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigPr02.vhd sub00/vhpl05 1672835420
+EN signalmod NULL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/signalMod.vhd sub00/vhpl02 1672835417
+EN sigklip NULL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigPr02.vhd sub00/vhpl04 1672835419
+EN signalprocesing NULL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/SignalProcesing.vhd sub00/vhpl08 1672835423
+AR signalprocesing behavioral C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/SignalProcesing.vhd sub00/vhpl09 1672835424
+AR signalmod structural C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/signalMod.vhd sub00/vhpl03 1672835418
+EN dds_generator NULL C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/DDS_generator.vhd sub00/vhpl00 1672835415
+AR sigdiv structural C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/sigDiv.vhd sub00/vhpl07 1672835422
+AR dds_generator structural C:/Users/Ivan/Documents/git/TSI_FPGA/Exam/DDS_generator.vhd sub00/vhpl01 1672835416
