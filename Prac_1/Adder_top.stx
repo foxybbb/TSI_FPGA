@@ -1,0 +1,40 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitaAdder.vhd" in Library work.
+Architecture structural of Entity bitadder is up to date.
+Compiling vhdl file "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd" in Library work.
+Entity <adder_top> compiled.
+ERROR:HDLParsers:3313 - "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd" Line 64. Undefined symbol 'SeL'.  Should it be: deL, beL, SrL or SlL?
+ERROR:HDLParsers:1209 - "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd" Line 64. SeL: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd" Line 65. Undefined symbol 'Sgm'.
+ERROR:HDLParsers:1209 - "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd" Line 65. Sgm: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total memory usage is 4468320 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

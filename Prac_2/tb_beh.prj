@@ -1,0 +1,6 @@
+vhdl work "frqDiv2.vhd"
+vhdl work "sgm.vhd"
+vhdl work "frqDivN.vhd"
+vhdl work "cnt4bit.vhd"
+vhdl work "Pra_2_top.vhd"
+vhdl work "tb.vhd"

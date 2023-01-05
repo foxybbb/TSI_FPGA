@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/xst"
+elaborate
+-ifn Adder_top.prj
+-ifmt mixed
