@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 V3 25
 FL C:/Users/Ivan/Documents/FPGA/LFSR_3/eLCeLL.vhd 2022/12/13.22:15:54 P.20131013
 EN work/eLCeLL 1671613999 FL C:/Users/Ivan/Documents/FPGA/LFSR_3/eLCeLL.vhd \
@@ -33,3 +34,50 @@ EN work/SGM 1671614007 FL C:/Users/Ivan/Documents/FPGA/LFSR_3/SGM.vhd \
       PB ieee/std_logic_1164 1381692176
 AR work/SGM/Structural 1671614008 \
       FL C:/Users/Ivan/Documents/FPGA/LFSR_3/SGM.vhd EN work/SGM 1671614007
+=======
+V3 31
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/eLCeLL.vhd 2022/12/13.22:15:54 P.20131013
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDiv2.vhd 2022/12/13.20:07:57 P.20131013
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/frqDivN.vhd 2022/12/13.21:54:48 P.20131013
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR.vhd 2022/12/13.22:17:01 P.20131013
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.vhd 2022/12/13.22:18:14 P.20131013
+FL C:/Users/Ivan/Documents/FPGA/LFSR_3/SGM.vhd 2022/12/13.22:10:30 P.20131013
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/eLCeLL.vhd 2022/12/13.23:17:10 P.20131013
+EN work/eLCeLL 1670962721 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/eLCeLL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/eLCeLL/Structural 1670962722 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/eLCeLL.vhd EN work/eLCeLL 1670962721
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDiv2.vhd 2022/12/13.23:17:10 P.20131013
+EN work/frqDiv2 1670962723 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDiv2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDiv2/Structural 1670962724 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDiv2.vhd EN work/frqDiv2 1670962723
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDivN.vhd 2022/12/13.23:17:10 P.20131013
+EN work/frqDivN 1670962725 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDivN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/frqDivN/Structural 1670962726 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/frqDivN.vhd EN work/frqDivN 1670962725 \
+      CP frqDiv2
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR.vhd 2022/12/13.23:17:10 P.20131013
+EN work/LFSR 1670962727 FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LFSR/Structural 1670962728 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR.vhd EN work/LFSR 1670962727 \
+      CP eLCeLL
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.vhd 2022/12/13.23:17:10 P.20131013
+EN work/LFSR_top 1670962731 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/LFSR_top/Behavioral 1670962732 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.vhd \
+      EN work/LFSR_top 1670962731 CP frqDivN CP LFSR CP SGM CP bufg
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/SGM.vhd 2022/12/13.23:17:10 P.20131013
+EN work/SGM 1670962729 FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/SGM.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SGM/Structural 1670962730 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/SGM.vhd EN work/SGM 1670962729
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585

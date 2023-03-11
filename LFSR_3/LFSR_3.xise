@@ -51,9 +51,12 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="112"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="112"/>
     </file>
+<<<<<<< HEAD
     <file xil_pn:name="pinOut.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
+=======
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
   </files>
 
   <properties>
@@ -279,8 +282,18 @@
     <property xil_pn:name="Run for Specified Time Translate" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Safe Implementation" xil_pn:value="No" xil_pn:valueState="default"/>
     <property xil_pn:name="Security" xil_pn:value="Enable Readback and Reconfiguration" xil_pn:valueState="default"/>
+<<<<<<< HEAD
     <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/tbb/uut" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.LFSR_top" xil_pn:valueState="non-default"/>
+=======
+<<<<<<<< HEAD:Pract_2/Pract_2.xise
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/Prac_2_top" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.Prac_2_top" xil_pn:valueState="non-default"/>
+========
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/tbb" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.tbb" xil_pn:valueState="non-default"/>
+>>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585:LFSR_3/LFSR_3.xise
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
     <property xil_pn:name="Selected Simulation Root Source Node Post-Map" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Route" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Translate" xil_pn:value="" xil_pn:valueState="default"/>
@@ -296,7 +309,11 @@
     <property xil_pn:name="Slice Packing" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Slice Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify 'define Macro Name and Value" xil_pn:value="" xil_pn:valueState="default"/>
+<<<<<<< HEAD
     <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.LFSR_top" xil_pn:valueState="default"/>
+=======
+    <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.tbb" xil_pn:valueState="default"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
     <property xil_pn:name="Specify Top Level Instance Names Post-Map" xil_pn:value="Default" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Route" xil_pn:value="Default" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Translate" xil_pn:value="Default" xil_pn:valueState="default"/>
@@ -305,7 +322,10 @@
     <property xil_pn:name="Starting Placer Cost Table (1-100) Par" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
     <property xil_pn:name="Target Simulator" xil_pn:value="Please Specify" xil_pn:valueState="default"/>
+<<<<<<< HEAD
     <property xil_pn:name="Target UCF File Name" xil_pn:value="pinOut.ucf" xil_pn:valueState="non-default"/>
+=======
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
     <property xil_pn:name="Timing Mode Map" xil_pn:value="Non Timing Driven" xil_pn:valueState="default"/>
     <property xil_pn:name="Timing Mode Par" xil_pn:value="Performance Evaluation" xil_pn:valueState="default"/>
     <property xil_pn:name="Top-Level Module Name in Output Netlist" xil_pn:value="" xil_pn:valueState="default"/>

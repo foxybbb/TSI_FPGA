@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.syr" 
 xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.syr" 
 xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.syr" 
@@ -15,3 +16,12 @@ map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LFSR_to
 par -w -intstyle ise -ol high -t 1 LFSR_top_map.ncd LFSR_top.ncd LFSR_top.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LFSR_top.twx LFSR_top.ncd -o LFSR_top.twr LFSR_top.pcf -ucf pinOut.ucf 
 bitgen -intstyle ise -f LFSR_top.ut LFSR_top.ncd 
+=======
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/git/TSI_FPGA/LFSR_3/LFSR_top.syr" 
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585

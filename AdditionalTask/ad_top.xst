@@ -5,7 +5,11 @@ run
 -ifmt mixed
 -ofn ad_top
 -ofmt NGC
+<<<<<<< HEAD
 -p xc3s500e-4-ft256
+=======
+-p xc3s500e-4-fg320
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
 -top ad_top
 -opt_mode Speed
 -opt_level 1

@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/Pract_01/Adder_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/Pract_01/Adder_top.syr" 

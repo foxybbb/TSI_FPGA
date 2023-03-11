@@ -1,0 +1,33 @@
+add instance decode4 688 992 R0 -sn=1
+select figure at 773 669 8 -branches -sn=1
+select figure at 774 669 8 -branches -all -sn=1
+add instance dec_cc8 160 1136 R0 -sn=1
+select figure at 412 981 8 -branches -sn=1
+select figure at 372 886 8 -branches -sn=1
+delete selection -sn=1
+add instance dcm_sp 208 1168 R0 -sn=1
+select figure at 817 1141 8 -branches -sn=1
+select figure at 791 1052 8 -branches -sn=1
+select figure at 852 834 8 -branches -sn=1
+move instance at 688 992 to 1376 880 R0 -keepConn -sn=1
+move instance at 1376 880 to 1136 512 R0 -keepConn -sn=1
+select figure at 1072 516 8 -branches -sn=1
+select figure at 1272 172 8 -branches -sn=1
+move instance at 1136 512 to 1104 544 R0 -keepConn -sn=1
+select figure at 658 239 8 -branches -sn=1
+select figure at 608 204 8 -branches -sn=1
+select figure at 593 214 8 -branches -sn=1
+select figure at 691 218 8 -branches -sn=1
+select figure at 590 211 8 -branches -sn=1
+move instance at 208 1168 to 240 1168 R0 -keepConn -sn=1
+undo
+select figure at 596 211 8 -branches -sn=1
+select figure at 596 211 8 -branches -all -sn=1
+add atwin 208 1104 400 624 8 InstName -sn=1
+select figure at 810 523 8 -branches -sn=1
+select figure at 709 871 8 -branches -sn=1
+select figure at 596 847 8 -branches -sn=1
+move instance at 208 1168 to 288 1136 R0 -keepConn -sn=1
+undo
+select figure at 434 893 8 -branches -sn=1
+delete selection -sn=1

@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\frqDiv2.vhd"
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\eLCeLL.vhd"
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\SGM.vhd"
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\LFSR.vhd"
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\frqDivN.vhd"
 vhdl work "C:\Users\Ivan\Documents\FPGA\LFSR_3\LFSR_top.vhd"
+=======
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\frqDiv2.vhd"
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\eLCeLL.vhd"
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\SGM.vhd"
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\LFSR.vhd"
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\frqDivN.vhd"
+vhdl work "C:\Users\Ivan\Documents\git\TSI_FPGA\LFSR_3\LFSR_top.vhd"
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585

@@ -5,6 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<<<<<<< HEAD
 <msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Documents/FPGA/LFSR_3/LFSR_top.vhd</arg>&quot; line <arg fmt="%d" index="2">54</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ckDiv</arg>&apos; of component &apos;<arg fmt="%s" index="4">frqDivN</arg>&apos;.
 </msg>
 
@@ -137,6 +138,18 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 
 <msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">delayReg_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">LFSR</arg>.
 You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+=======
+<msg type="error" file="HDLParsers" num="3278" delta="old" >Can&apos;t write file &quot;<arg fmt="%s" index="1">xst/work/sub00/vhpl00.vho</arg>&quot;: <arg fmt="%s" index="2">No such file or directory</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="309" delta="old" >Can not overwrite the object file in library <arg fmt="%s" index="1">work</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3278" delta="old" >Can&apos;t write file &quot;<arg fmt="%s" index="1">xst/work/sub00/vhpl01.vho</arg>&quot;: <arg fmt="%s" index="2">No such file or directory</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="309" delta="old" >Can not overwrite the object file in library <arg fmt="%s" index="1">work</arg>.
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
 </msg>
 
 </messages>

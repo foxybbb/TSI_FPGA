@@ -1,6 +1,0 @@
-V3 3
-FL C:/Users/Ivan/Documents/FPGA/testProj/top.vhd 2022/11/01.16:07:55 P.20131013
-EN work/top 1667311678 FL C:/Users/Ivan/Documents/FPGA/testProj/top.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/top/Behavioral 1667311679 \
-      FL C:/Users/Ivan/Documents/FPGA/testProj/top.vhd EN work/top 1667311678

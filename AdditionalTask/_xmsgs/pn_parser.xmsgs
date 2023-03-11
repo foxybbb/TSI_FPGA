@@ -14,5 +14,11 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Documents/FPGA/Prac_2/frqDiv2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< HEAD
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Documents/FPGA/Prac_2/frqDivN.vhd&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Documents/git/TSI_FPGA/Prac_2/frqDiv2.vhd&quot; into library work</arg>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
 </msg>
 
 </messages>

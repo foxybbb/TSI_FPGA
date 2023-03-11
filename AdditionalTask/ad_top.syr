@@ -220,12 +220,20 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
+<<<<<<< HEAD
 Selected Device : 3s500eft256-4 
+=======
+Selected Device : 3s500efg320-4 
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
 
  Number of Slices:                        4  out of   4656     0%  
  Number of Slice Flip Flops:              8  out of   9312     0%  
  Number of IOs:                           9
+<<<<<<< HEAD
  Number of bonded IOBs:                   9  out of    190     4%  
+=======
+ Number of bonded IOBs:                   9  out of    232     3%  
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -312,12 +320,21 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
+<<<<<<< HEAD
 Total REAL time to Xst completion: 6.00 secs
 Total CPU time to Xst completion: 5.50 secs
  
 --> 
 
 Total memory usage is 4531016 kilobytes
+=======
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.30 secs
+ 
+--> 
+
+Total memory usage is 4531036 kilobytes
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)

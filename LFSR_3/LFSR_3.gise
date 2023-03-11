@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LFSR_3.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+<<<<<<< HEAD
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LFSR.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LFSR.cmd_log"/>
@@ -124,10 +125,24 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+=======
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LFSR_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LFSR_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LFSR_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LFSR_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LFSR_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LFSR_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LFSR_top_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LFSR_top_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LFSR_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1670888914" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1670888914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -236,12 +251,58 @@
       <outfile xil_pn:name="LFSR_top.syr"/>
       <outfile xil_pn:name="LFSR_top.xst"/>
       <outfile xil_pn:name="LFSR_top_stx_beh.prj"/>
+=======
+<<<<<<<< HEAD:Pract_01/Pract_01.gise
+    <transform xil_pn:end_ts="1669760093" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1669760093">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669760093" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8773427063890882263" xil_pn:start_ts="1669760093">
+========
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1671613826">
+>>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585:LFSR_3/LFSR_3.gise
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5615138469442187880" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6264089966308926739" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2803533964131568150" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1671613826" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="819819464545253213" xil_pn:start_ts="1671613826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1672444728" xil_pn:in_ck="-2361630862324698416" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4863118974493115014" xil_pn:start_ts="1672444724">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LFSR_top.lso"/>
+      <outfile xil_pn:name="LFSR_top.prj"/>
+      <outfile xil_pn:name="LFSR_top.syr"/>
+      <outfile xil_pn:name="LFSR_top.xst"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <outfile xil_pn:name="LFSR_top_vhdl.prj"/>
       <outfile xil_pn:name="LFSR_top_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
+<<<<<<< HEAD
     <transform xil_pn:end_ts="1671614005" xil_pn:in_ck="5350553930822763" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2442624797113766463" xil_pn:start_ts="1671614005">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -311,6 +372,12 @@
       <outfile xil_pn:name="LFSR_top.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
+=======
+    <transform xil_pn:end_ts="1671613830" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2442624797113766463" xil_pn:start_ts="1671613830">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
   </transforms>
 
 </generated_project>

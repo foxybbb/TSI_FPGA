@@ -183,7 +183,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
       <status xil_pn:value="OutOfDateForOutputs"/>
+=======
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="Prac_2_top.lso"/>
@@ -206,6 +212,12 @@
     <transform xil_pn:end_ts="1670970032" xil_pn:in_ck="-6219276620149243782" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7685163773302617815" xil_pn:start_ts="1670970025">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
+=======
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <outfile xil_pn:name="Prac_2_top.bld"/>
       <outfile xil_pn:name="Prac_2_top.ngd"/>
       <outfile xil_pn:name="Prac_2_top_ngdbuild.xrpt"/>
@@ -215,6 +227,10 @@
     <transform xil_pn:end_ts="1670970038" xil_pn:in_ck="-6217745041163979333" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-872484039588261087" xil_pn:start_ts="1670970032">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
+=======
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <outfile xil_pn:name="Prac_2_top.pcf"/>
       <outfile xil_pn:name="Prac_2_top_map.map"/>
       <outfile xil_pn:name="Prac_2_top_map.mrp"/>
@@ -228,6 +244,10 @@
     <transform xil_pn:end_ts="1670970058" xil_pn:in_ck="2551332463237062676" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1670970038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
+=======
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <outfile xil_pn:name="Prac_2_top.ncd"/>
       <outfile xil_pn:name="Prac_2_top.pad"/>
       <outfile xil_pn:name="Prac_2_top.par"/>
@@ -242,6 +262,10 @@
     <transform xil_pn:end_ts="1670970058" xil_pn:in_ck="-6419913467218886601" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1670970053">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+<<<<<<< HEAD
+=======
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+>>>>>>> ba84654a9d2c33637a71724853b17ccdb9e35585
       <outfile xil_pn:name="Prac_2_top.twr"/>
       <outfile xil_pn:name="Prac_2_top.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

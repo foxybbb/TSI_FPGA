@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitaAdder.vhd 2022/10/07.18:06:20 P.20131013
+EN work/bitAdder 1670967205 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitaAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bitAdder/Structural 1670967206 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitaAdder.vhd \
+      EN work/bitAdder 1670967205
+FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd 2022/11/04.12:53:12 P.20131013
+EN work/Adder_top 0 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder_top/Behavioral 0 \
+      FL C:/Users/Ivan/Documents/git/TSI_FPGA/Pract1/bitAdder_top.vhd \
+      EN work/Adder_top 0 CP bitAdder
