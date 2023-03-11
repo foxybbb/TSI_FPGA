@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ivan/Documents/FPGA/LFSR/testb_isim_beh.exe -prj C:/Users/Ivan/Documents/FPGA/LFSR/testb_beh.prj work.testb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/LFSR/eLCeLL.vhd" into library work
+WARNING:HDLCompiler:1369 - "C:/Users/Ivan/Documents/FPGA/LFSR/eLCeLL.vhd" Line 48: Possible infinite loop; process does not have a wait statement
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/LFSR/LFSR.vhd" into library work
+WARNING:HDLCompiler:1369 - "C:/Users/Ivan/Documents/FPGA/LFSR/LFSR.vhd" Line 57: Possible infinite loop; process does not have a wait statement
+Parsing VHDL file "C:/Users/Ivan/Documents/FPGA/LFSR/testb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160320 KB
+Fuse CPU Usage: 296 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture structural of entity eLCeLL [elcell_default]
+Compiling architecture structural of entity LFSR [lfsr_default]
+Compiling architecture behavior of entity testb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design

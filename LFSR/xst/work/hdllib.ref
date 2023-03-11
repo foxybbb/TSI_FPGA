@@ -1,0 +1,6 @@
+EN lcells NULL C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.vhd sub00/vhpl04 1670529336
+AR lfsr_top behavioral C:/Users/Ivan/Documents/FPGA/LFSR/LFSR_top.vhd sub00/vhpl03 1670523299
+AR lcells structural C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.vhd sub00/vhpl05 1670529337
+AR elcell structural C:/Users/Ivan/Documents/FPGA/LFSR/eLCeLL.vhd sub00/vhpl01 1670716434
+EN lfsr_top NULL C:/Users/Ivan/Documents/FPGA/LFSR/LFSR_top.vhd sub00/vhpl02 1670523298
+EN elcell NULL C:/Users/Ivan/Documents/FPGA/LFSR/eLCeLL.vhd sub00/vhpl00 1670716433

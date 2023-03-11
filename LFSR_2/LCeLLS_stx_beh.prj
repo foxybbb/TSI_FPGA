@@ -1,0 +1,2 @@
+vhdl isim_temp "../LFSR/eLCeLL.vhd"
+vhdl isim_temp "../LFSR/LCeLLS.vhd"

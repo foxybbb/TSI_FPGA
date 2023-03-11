@@ -1,0 +1,28 @@
+Command line:
+   LCeLLS_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62500
+
+Thu Dec 08 21:22:19 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.22 Meg
+
+ Total Signals          : 78
+ Total Nets             : 48
+ Total Signal Drivers   : 9
+ Total Blocks           : 10
+ Total Primitive Blocks : 9
+ Total Processes        : 9
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 408
+
+ Total Simulation Time: 841.938 sec
+
+ Current Memory Usage: 4678.36 Meg
+
+Thu Dec 08 21:36:31 2022
+

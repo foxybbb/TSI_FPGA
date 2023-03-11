@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Documents/FPGA/Lffsrttest/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Documents/FPGA/Lffsrttest/xst"
+elaborate
+-ifn eLCeLL.prj
+-ifmt mixed

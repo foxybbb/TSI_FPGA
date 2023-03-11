@@ -1,0 +1,3 @@
+vhdl isim_temp "eLCeLL.vhd"
+vhdl isim_temp "LCeLLS.vhd"
+vhdl isim_temp "cell_tb.vhd"

@@ -1,0 +1,3 @@
+vhdl work "eLCeLL.vhd"
+vhdl work "LCeLLS.vhd"
+vhdl work "LCELLS_tb.vhd"

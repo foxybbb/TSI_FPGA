@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LFSR_top.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LFSR_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LFSR_top.ngc LFSR_top.ngd  

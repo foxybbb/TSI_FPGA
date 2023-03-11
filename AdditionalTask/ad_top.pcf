@@ -1,8 +1,17 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Nov 04 14:34:54 2022
+// Written by: Map P.20131013 on Tue Dec 13 23:24:41 2022
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "leds<0>" LOCATE = SITE "C11" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "D11" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "B11" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "A12" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "A13" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "B13" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "A14" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "B14" LEVEL 1;
+COMP "ckIn" LOCATE = SITE "B8" LEVEL 1;
 NET "ckIn_IBUFG" BEL "InCk.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;
 

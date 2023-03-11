@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LCeLLS.ngc LCeLLS.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LCeLLS_map.ncd LCeLLS.ngd LCeLLS.pcf 
+par -w -intstyle ise -ol high -t 1 LCeLLS_map.ncd LCeLLS.ncd LCeLLS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LCeLLS.twx LCeLLS.ncd -o LCeLLS.twr LCeLLS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LCeLLS.ngc LCeLLS.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LCeLLS_map.ncd LCeLLS.ngd LCeLLS.pcf 
+par -w -intstyle ise -ol high -t 1 LCeLLS_map.ncd LCeLLS.ncd LCeLLS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LCeLLS.twx LCeLLS.ncd -o LCeLLS.twr LCeLLS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LCeLLS.ngc LCeLLS.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LCeLLS_map.ncd LCeLLS.ngd LCeLLS.pcf 
+par -w -intstyle ise -ol high -t 1 LCeLLS_map.ncd LCeLLS.ncd LCeLLS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LCeLLS.twx LCeLLS.ncd -o LCeLLS.twr LCeLLS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LCeLLS.ngc LCeLLS.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LCeLLS_map.ncd LCeLLS.ngd LCeLLS.pcf 
+par -w -intstyle ise -ol high -t 1 LCeLLS_map.ncd LCeLLS.ncd LCeLLS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LCeLLS.twx LCeLLS.ncd -o LCeLLS.twr LCeLLS.pcf 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.xst" -ofn "C:/Users/Ivan/Documents/FPGA/LFSR/LCeLLS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 LCeLLS.ngc LCeLLS.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o LCeLLS_map.ncd LCeLLS.ngd LCeLLS.pcf 

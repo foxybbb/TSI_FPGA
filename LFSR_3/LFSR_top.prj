@@ -1,0 +1,6 @@
+vhdl work "frqDiv2.vhd"
+vhdl work "eLCeLL.vhd"
+vhdl work "SGM.vhd"
+vhdl work "LFSR.vhd"
+vhdl work "frqDivN.vhd"
+vhdl work "LFSR_top.vhd"

@@ -1,0 +1,5 @@
+work	"Pra_2_top.vhd"
+work	"cnt4bit.vhd"
+work	"frqDiv2.vhd"
+work	"frqDivN.vhd"
+work	"sgm.vhd"

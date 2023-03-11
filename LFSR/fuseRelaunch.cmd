@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ivan/Documents/FPGA/LFSR/testb_isim_beh.exe" -prj "C:/Users/Ivan/Documents/FPGA/LFSR/testb_beh.prj" "work.testb" 

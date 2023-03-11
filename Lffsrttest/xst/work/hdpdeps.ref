@@ -1,0 +1,12 @@
+V3 7
+FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/eLCeLL.vhd 2022/12/13.19:19:21 P.20131013
+EN work/eLCeLL 1670952471 FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/eLCeLL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/eLCeLL/arch 1670952472 \
+      FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/eLCeLL.vhd EN work/eLCeLL 1670952471
+FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/LFSR.vhd 2022/12/13.19:23:32 P.20131013
+EN work/LFSR 1670952473 FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/LFSR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LFSR/arch 1670952474 \
+      FL C:/Users/Ivan/Documents/FPGA/Lffsrttest/LFSR.vhd EN work/LFSR 1670952473 \
+      CP eLCeLL

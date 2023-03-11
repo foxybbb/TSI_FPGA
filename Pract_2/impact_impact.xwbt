@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Ivan\Documents\FPGA\Pract_2\impact.xsl
+OUTFILE=C:\Users\Ivan\Documents\FPGA\Pract_2\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\Users\Ivan\Documents\FPGA\Pract_2
+LICENSE=iMPACT
+USER_INFO=iMPACT

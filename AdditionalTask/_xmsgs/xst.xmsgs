@@ -5,7 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Documents/FPGA/AdditionalTask/ad_top.vhd</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">parse error, unexpected END</arg>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Documents/FPGA/AdditionalTask/ad_top.vhd</arg>&quot; line <arg fmt="%d" index="2">56</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">bufg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">TempIn</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 </messages>

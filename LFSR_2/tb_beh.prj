@@ -1,0 +1,3 @@
+vhdl work "../LFSR/eLCeLL.vhd"
+vhdl work "../LFSR/LCeLLS.vhd"
+vhdl work "tb.vhd"

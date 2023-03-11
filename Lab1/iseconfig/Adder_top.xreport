@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-28T11:29:48</DateModified>
+  <DateModified>2022-12-13T23:17:46</DateModified>
   <ModuleName>Adder_top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/st75026/Downloads/FPGA/FPGA/Lab1/iseconfig/Adder_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/st75026/Downloads/FPGA/FPGA/Lab1</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Ivan/Documents/FPGA/Lab1/iseconfig/Adder_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Ivan/Documents/FPGA/Lab1\</ImplementationReportsDirectory>
   <DateInitialized>2022-10-28T11:29:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

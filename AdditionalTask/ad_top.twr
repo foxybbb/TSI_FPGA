@@ -3,11 +3,12 @@ Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
--n 3 -fastpaths -xml ad_top.twx ad_top.ncd -o ad_top.twr ad_top.pcf
+-n 3 -fastpaths -xml ad_top.twx ad_top.ncd -o ad_top.twr ad_top.pcf -ucf
+pinOut.ucf
 
 Design file:              ad_top.ncd
 Physical constraint file: ad_top.pcf
-Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Device,package,speed:     xc3s500e,ft256,-4 (PRODUCTION 1.27 2013-10-13)
 Report level:             verbose report
 
 Environment Variable      Effect 
@@ -39,16 +40,31 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Clock ckIn to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |    8.151(R)|ckMain            |   0.000|
+leds<1>     |    7.972(R)|ckMain            |   0.000|
+leds<2>     |    7.610(R)|ckMain            |   0.000|
+leds<3>     |    8.187(R)|ckMain            |   0.000|
+leds<4>     |    7.682(R)|ckMain            |   0.000|
+leds<5>     |    7.916(R)|ckMain            |   0.000|
+leds<6>     |    8.167(R)|ckMain            |   0.000|
+leds<7>     |    8.187(R)|ckMain            |   0.000|
+------------+------------+------------------+--------+
+
 Clock to Setup on destination clock ckIn
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-ckIn           |    3.295|         |         |         |
+ckIn           |    2.173|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri Nov 04 14:35:08 2022 
+Analysis completed Tue Dec 13 23:24:55 2022 
 --------------------------------------------------------------------------------
 
 Trace Settings:

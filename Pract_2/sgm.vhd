@@ -1,44 +1,131 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-entity sgm is
-   port (
-      SeL : in STD_LOGIC_VECTOR (3 downto 0);
-      ckIn : in STD_LOGIC;
-      ckEn : in STD_LOGIC;
-      Sg : out STD_LOGIC_VECTOR (6 downto 0));
-end sgm;
 
-architecture Structural of sgm is
+entity SGM is
+    port (
+        ckIn : in STD_LOGIC;
+        ckEn : in STD_LOGIC;
+        SeL : in STD_LOGIC_VECTOR (6 downto 0);
+        sgm_com : out STD_LOGIC;
+        sgm_out : out STD_LOGIC_VECTOR (13 downto 0));
+end SGM;
+
+architecture Structural of SGM is
+    signal dec2Sgm : STD_LOGIC_VECTOR(13 downto 0);
 begin
+    process (ckIn)
+    begin
+        if rising_edge(ckIn) then
+            if ckEn = '1' then
 
-   process (ckIn)
-   begin
-      if rising_edge(ckIn) then
-         if ckEn = '1' then
+                case (SeL) is
+                    when "0000001" => dec2Sgm <= "11111100110000";
+                    when "0000010" => dec2Sgm <= "11111101101101";
+                    when "0000011" => dec2Sgm <= "11111101111001";
+                    when "0000100" => dec2Sgm <= "11111100110011";
+                    when "0000101" => dec2Sgm <= "11111101011011";
+                    when "0000110" => dec2Sgm <= "11111101011111";
+                    when "0000111" => dec2Sgm <= "11111101110010";
+                    when "0001000" => dec2Sgm <= "11111101111111";
+                    when "0001001" => dec2Sgm <= "11111101111011";
+                    when "0001010" => dec2Sgm <= "01100001111110";
+                    when "0001011" => dec2Sgm <= "01100000110000";
+                    when "0001100" => dec2Sgm <= "01100001101101";
+                    when "0001101" => dec2Sgm <= "01100001111001";
+                    when "0001110" => dec2Sgm <= "01100000110011";
+                    when "0001111" => dec2Sgm <= "01100001011011";
+                    when "0010000" => dec2Sgm <= "01100001011111";
+                    when "0010001" => dec2Sgm <= "01100001110010";
+                    when "0010010" => dec2Sgm <= "01100001111111";
+                    when "0010011" => dec2Sgm <= "01100001111011";
+                    when "0010100" => dec2Sgm <= "11011011111110";
+                    when "0010101" => dec2Sgm <= "11011010110000";
+                    when "0010110" => dec2Sgm <= "11011011101101";
+                    when "0010111" => dec2Sgm <= "11011011111001";
+                    when "0011000" => dec2Sgm <= "11011010110011";
+                    when "0011001" => dec2Sgm <= "11011011011011";
+                    when "0011010" => dec2Sgm <= "11011011011111";
+                    when "0011011" => dec2Sgm <= "11011011110010";
+                    when "0011100" => dec2Sgm <= "11011011111111";
+                    when "0011101" => dec2Sgm <= "11011011111011";
+                    when "0011110" => dec2Sgm <= "11110011111110";
+                    when "0011111" => dec2Sgm <= "11110010110000";
+                    when "0100000" => dec2Sgm <= "11110011101101";
+                    when "0100001" => dec2Sgm <= "11110011111001";
+                    when "0100010" => dec2Sgm <= "11110010110011";
+                    when "0100011" => dec2Sgm <= "11110011011011";
+                    when "0100100" => dec2Sgm <= "11110011011111";
+                    when "0100101" => dec2Sgm <= "11110011110010";
+                    when "0100110" => dec2Sgm <= "11110011111111";
+                    when "0100111" => dec2Sgm <= "11110011111011";
+                    when "0101000" => dec2Sgm <= "01100111111110";
+                    when "0101001" => dec2Sgm <= "01100110110000";
+                    when "0101010" => dec2Sgm <= "01100111101101";
+                    when "0101011" => dec2Sgm <= "01100111111001";
+                    when "0101100" => dec2Sgm <= "01100110110011";
+                    when "0101101" => dec2Sgm <= "01100111011011";
+                    when "0101110" => dec2Sgm <= "01100111011111";
+                    when "0101111" => dec2Sgm <= "01100111110010";
+                    when "0110000" => dec2Sgm <= "01100111111111";
+                    when "0110001" => dec2Sgm <= "01100111111011";
+                    when "0110010" => dec2Sgm <= "10110111111110";
+                    when "0110011" => dec2Sgm <= "10110110110000";
+                    when "0110100" => dec2Sgm <= "10110111101101";
+                    when "0110101" => dec2Sgm <= "10110111111001";
+                    when "0110110" => dec2Sgm <= "10110110110011";
+                    when "0110111" => dec2Sgm <= "10110111011011";
+                    when "0111000" => dec2Sgm <= "10110111011111";
+                    when "0111001" => dec2Sgm <= "10110111110010";
+                    when "0111010" => dec2Sgm <= "10110111111111";
+                    when "0111011" => dec2Sgm <= "10110111111011";
+                    when "0111100" => dec2Sgm <= "10111111111110";
+                    when "0111101" => dec2Sgm <= "10111110110000";
+                    when "0111110" => dec2Sgm <= "10111111101101";
+                    when "0111111" => dec2Sgm <= "10111111111001";
+                    when "1000000" => dec2Sgm <= "10111110110011";
+                    when "1000001" => dec2Sgm <= "10111111011011";
+                    when "1000010" => dec2Sgm <= "10111111011111";
+                    when "1000011" => dec2Sgm <= "10111111110010";
+                    when "1000100" => dec2Sgm <= "10111111111111";
+                    when "1000101" => dec2Sgm <= "10111111111011";
+                    when "1000110" => dec2Sgm <= "11100101111110";
+                    when "1000111" => dec2Sgm <= "11100100110000";
+                    when "1001000" => dec2Sgm <= "11100101101101";
+                    when "1001001" => dec2Sgm <= "11100101111001";
+                    when "1001010" => dec2Sgm <= "11100100110011";
+                    when "1001011" => dec2Sgm <= "11100101011011";
+                    when "1001100" => dec2Sgm <= "11100101011111";
+                    when "1001101" => dec2Sgm <= "11100101110010";
+                    when "1001110" => dec2Sgm <= "11100101111111";
+                    when "1001111" => dec2Sgm <= "11100101111011";
+                    when "1010000" => dec2Sgm <= "11111111111110";
+                    when "1010001" => dec2Sgm <= "11111110110000";
+                    when "1010010" => dec2Sgm <= "11111111101101";
+                    when "1010011" => dec2Sgm <= "11111111111001";
+                    when "1010100" => dec2Sgm <= "11111110110011";
+                    when "1010101" => dec2Sgm <= "11111111011011";
+                    when "1010110" => dec2Sgm <= "11111111011111";
+                    when "1010111" => dec2Sgm <= "11111111110010";
+                    when "1011000" => dec2Sgm <= "11111111111111";
+                    when "1011001" => dec2Sgm <= "11111111111011";
+                    when "1011010" => dec2Sgm <= "11110111111110";
+                    when "1011011" => dec2Sgm <= "11110110110000";
+                    when "1011100" => dec2Sgm <= "11110111101101";
+                    when "1011101" => dec2Sgm <= "11110111111001";
+                    when "1011110" => dec2Sgm <= "11110110110011";
+                    when "1011111" => dec2Sgm <= "11110111011011";
+                    when "1100000" => dec2Sgm <= "11110111011111";
+                    when "1100001" => dec2Sgm <= "11110111110010";
+                    when "1100010" => dec2Sgm <= "11110111111111";
+                    when others => dec2Sgm <= "11111101111110";
+                end case;
 
-            case (SeL) is
-               when "0001" => Sg <= "0110000";
-               when "0010" => Sg <= "1101101";
-               when "0011" => Sg <= "1111001";
-               when "0100" => Sg <= "0110011";
-               when "0101" => Sg <= "1011011";
-               when "0110" => Sg <= "1011111";
-               when "0111" => Sg <= "1110010";
-               when "1000" => Sg <= "1111111";
-               when "1001" => Sg <= "1111011";
-               when "1010" => Sg <= "1110111";
-               when "1011" => Sg <= "0011111";
-               when "1100" => Sg <= "1001110";
-               when "1101" => Sg <= "0111101";
-               when "1110" => Sg <= "1001111";
-               when "1111" => Sg <= "1000111";
-               when others => Sg <= "1111110";
-            end case;
+            end if;
+        end if;
+    end process;
 
-         else
+    sgm_out(13 downto 0) <= dec2Sgm(13 downto 0);
 
-         end if;
-      end if;
-   end process;
+    sgm_com <= '0';
 end Structural;

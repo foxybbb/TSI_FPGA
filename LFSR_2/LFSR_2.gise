@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LFSR_2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LCeLLS.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LCeLLS.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LCeLLS.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCeLLS.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LCeLLS.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LCeLLS.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LCeLLS.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LCeLLS.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LCeLLS.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LCeLLS.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCeLLS.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LCeLLS.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LCeLLS.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LCeLLS.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LCeLLS.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LCeLLS.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LCeLLS.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LCeLLS.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LCeLLS.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCeLLS_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LCeLLS_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LCeLLS_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCeLLS_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LCeLLS_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LCeLLS_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LCeLLS_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCeLLS_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCeLLS_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LCeLLS_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LCeLLS_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCeLLS_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCeLLS_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LCeLLS_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LCeLLS_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LCeLLS_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LCeLLS_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LCeLLS_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="eLCeLL.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="eLCeLL.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="eLCeLL.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="eLCeLL_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="eLCeLL_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1670716882" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1670716882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670888475" xil_pn:in_ck="-4455700432243310408" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670888475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../LFSR/LCeLLS.vhd"/>
+      <outfile xil_pn:name="../LFSR/eLCeLL.vhd"/>
+      <outfile xil_pn:name="tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1670887069" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-779355537548284490" xil_pn:start_ts="1670887069">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670887069" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2894355380392999048" xil_pn:start_ts="1670887069">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716882" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4987483798888277701" xil_pn:start_ts="1670716882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670888475" xil_pn:in_ck="-4455700432243310408" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1670888475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../LFSR/LCeLLS.vhd"/>
+      <outfile xil_pn:name="../LFSR/eLCeLL.vhd"/>
+      <outfile xil_pn:name="tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1670888480" xil_pn:in_ck="-4455700432243310408" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6038693375435272316" xil_pn:start_ts="1670888475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_beh.prj"/>
+      <outfile xil_pn:name="tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1670888480" xil_pn:in_ck="3166441742340887795" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1974431234645556231" xil_pn:start_ts="1670888480">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3816152293270810486" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4987483798888277701" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1612109209043817864" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716898" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8675221115294998159" xil_pn:start_ts="1670716898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670884136" xil_pn:in_ck="-3127371957724005454" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4731346303681960888" xil_pn:start_ts="1670884127">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="LCeLLS.lso"/>
+      <outfile xil_pn:name="LCeLLS.ngc"/>
+      <outfile xil_pn:name="LCeLLS.ngr"/>
+      <outfile xil_pn:name="LCeLLS.prj"/>
+      <outfile xil_pn:name="LCeLLS.stx"/>
+      <outfile xil_pn:name="LCeLLS.syr"/>
+      <outfile xil_pn:name="LCeLLS.xst"/>
+      <outfile xil_pn:name="LCeLLS_stx_beh.prj"/>
+      <outfile xil_pn:name="LCeLLS_vhdl.prj"/>
+      <outfile xil_pn:name="LCeLLS_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1670716905" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6702975248046987827" xil_pn:start_ts="1670716905">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670884143" xil_pn:in_ck="3625907880774597" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-937808785151120792" xil_pn:start_ts="1670884136">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LCeLLS.bld"/>
+      <outfile xil_pn:name="LCeLLS.ngd"/>
+      <outfile xil_pn:name="LCeLLS_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1670884148" xil_pn:in_ck="3625907880774598" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5412401256540186144" xil_pn:start_ts="1670884143">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LCeLLS.pcf"/>
+      <outfile xil_pn:name="LCeLLS_map.map"/>
+      <outfile xil_pn:name="LCeLLS_map.mrp"/>
+      <outfile xil_pn:name="LCeLLS_map.ncd"/>
+      <outfile xil_pn:name="LCeLLS_map.ngm"/>
+      <outfile xil_pn:name="LCeLLS_map.xrpt"/>
+      <outfile xil_pn:name="LCeLLS_summary.xml"/>
+      <outfile xil_pn:name="LCeLLS_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1670884163" xil_pn:in_ck="1948932788559941087" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1670884148">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LCeLLS.ncd"/>
+      <outfile xil_pn:name="LCeLLS.pad"/>
+      <outfile xil_pn:name="LCeLLS.par"/>
+      <outfile xil_pn:name="LCeLLS.ptwx"/>
+      <outfile xil_pn:name="LCeLLS.unroutes"/>
+      <outfile xil_pn:name="LCeLLS.xpi"/>
+      <outfile xil_pn:name="LCeLLS_pad.csv"/>
+      <outfile xil_pn:name="LCeLLS_pad.txt"/>
+      <outfile xil_pn:name="LCeLLS_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1670884163" xil_pn:in_ck="3625907880774466" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1670884160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LCeLLS.twr"/>
+      <outfile xil_pn:name="LCeLLS.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>
